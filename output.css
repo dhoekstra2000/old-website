@@ -36,18 +36,19 @@ section {
   align-items: center;
   justify-content: center; }
 
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
   #bio {
     flex-direction: column; } }
 .profile-picture {
+  max-width: 25.6rem;
   padding: 8px;
-  flex: 2; }
+  flex: 2 0; }
 
 .profile-picture img {
   width: 100%; }
 
 .bio-text {
-  flex: 3;
+  flex: 3 0;
   padding: 8px; }
 
 a, :visited {
