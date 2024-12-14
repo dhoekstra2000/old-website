@@ -5,8 +5,7 @@ body {
 * {
   color: #1f3337;
   font-family: "Aleo", "Gill Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal; }
+  font-optical-sizing: auto; }
 
 header {
   background-color: #48a9a6; }
@@ -59,7 +58,8 @@ a:hover {
   text-decoration: none; }
 
 address {
-  margin: 8px; }
+  margin: 8px;
+  font-style: normal; }
 
 footer {
   background-color: #48a9a6; }
